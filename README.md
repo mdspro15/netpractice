@@ -22,5 +22,13 @@ To tell which part of IP address is host or network, we will need to convert IP 
 IP address 192.168.0.2   -> 11000000.10101000.00000000.00000010
 Mask       255.255.255.0 -> 11111111.11111111.11111111.00000000
 ```
+## CIDR
+It's a short way to write a subnet mask <br>
+**/24** means 24 bits in lengh 255.255.255.0
+```
+/25 255.255.255.128
+/26 255.255.255.192
+/8 255.0.0.0
+```
 When subnet mask binary digit is a 1, it will indicate the portion of IP address that defines network and remaining is host.
 Subnetting is done by changing the default subnet maks by borrowing some of bits from host portion so that we can create more networks. More bits network portion borrows from host portion, the amount of networks can be created doubles with each bit. But also the amount of hosts per network gets cut in half with each bit.

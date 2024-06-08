@@ -33,3 +33,9 @@ It's a short way to write a subnet mask <br>
 ```
 ## Subnetting
 Subnetting is done by changing the default subnet maks by borrowing some of bits from host portion so that we can create more networks. More bits network portion borrows from host portion, the amount of networks can be created doubles with each bit. But also the amount of hosts per network gets cut in half with each bit.
+```
+Subnet 1    2   4   8   16  32  64 128 256
+Host  256  128  64  32  16  8   4   2   1
+CIDR  /24  /25 /26 /27 /28 /29 /30 /31 /32
+```
+https://youtu.be/ecCuyq-Wprc?si=KCOCGAcG3onrmtnm

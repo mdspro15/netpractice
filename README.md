@@ -12,3 +12,6 @@ So, how to know which portion of IP address is network or host ?? Well, we will 
 
 # Subnet mask
 It's a number that resembles on IP address and combination of bits used to divide an IP network into smaller. The process of dividing a network into two or more networks is called ```subnetting```
+The main purpose of sunnetting is to help relieve network congestion and improve network performance.
+
+To tell which part of IP address is host or network, we will need to convert IP address and subnet mask to binary number.

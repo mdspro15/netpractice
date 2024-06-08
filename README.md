@@ -23,3 +23,4 @@ IP address 192.168.0.2   -> 11000000.10101000.00000000.00000010
 Mask       255.255.255.0 -> 11111111.11111111.11111111.00000000
 ```
 When subnet mask binary digit is a 1, it will indicate the portion of IP address that defines network and remaining is host.
+## Subnetting

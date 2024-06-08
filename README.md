@@ -25,7 +25,7 @@ Mask       255.255.255.0 -> 11111111.11111111.11111111.00000000
 When subnet mask binary digit is a 1, it will indicate the portion of IP address that defines network and remaining is host.
 ## CIDR
 It's a short way to write a subnet mask <br>
-**/24** means 24 bits in lengh 255.255.255.0
+**/24** means 24 bits in lengh 11111111.11111111.11111111.00000000 (255.255.255.0)
 ```
 /25 -> 255.255.255.128
 /26 -> 255.255.255.192

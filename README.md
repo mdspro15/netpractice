@@ -11,7 +11,9 @@ IP address consists of two parts
 So, how to know which portion of IP address is network or host ?? Well, we will have to learn about ```Subnet mask```
 
 # Subnet mask
-It's a number that resembles on IP address and combination of bits used to divide an IP network into smaller. The process of dividing a network into two or more networks is called ```subnetting```
+It's a number that resembles on IP address and combination of bits used to divide an IP network into smaller. The process of dividing a network into two or more networks is called **Subnetting**
 The main purpose of sunnetting is to help relieve network congestion and improve network performance.
 
 To tell which part of IP address is host or network, we will need to convert IP address and subnet mask to binary number.
+IP address 192.168.0.2   -> 11000000.10101000.00000000.00000010
+Mask       255.255.255.0 -> 11111111.11111111.11111111.00000000

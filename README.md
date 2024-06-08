@@ -5,6 +5,8 @@ IPv4 address is a 32-bit numeric address written as four numbers, separated by p
 The number range in each octet is from 0 - 255 <br>
 
 IP address consists of two parts
-+ Network address : It's a number that's assigned to a newwork
-+ Host address : It's a number that's assigned to hosts within that network
++ ```Network address``` : It's a number that's assigned to a newwork
++ ```Host address``` : It's a number that's assigned to hosts within that network
+
+So, how to know which portion of IP address is network or host ?? Well, we will have to learn about ```Subnet mask```
 

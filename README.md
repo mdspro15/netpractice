@@ -10,3 +10,4 @@ IP address consists of two parts
 
 So, how to know which portion of IP address is network or host ?? Well, we will have to learn about ```Subnet mask```
 
+# Subnet mask

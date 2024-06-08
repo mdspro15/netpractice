@@ -4,6 +4,8 @@ A identifier for a computer or device on network. Every device has to have an IP
 IPv4 address is a 32-bit numeric address written as four numbers, separated by periods and each group of numbers separated by period is called an **octet**.
 The number range in each octet is from 0 - 255 <br>
 
+<span style="font-size:0.5em;">Text goes here</span>
+
 IP address consists of two parts
 + ```Network address``` : It's a number that's assigned to a newwork
 + ```Host address``` : It's a number that's assigned to hosts within that network

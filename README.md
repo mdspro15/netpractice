@@ -6,6 +6,13 @@ The number range in each octet is from 0 - 255 <br>
 ```
 192.168.1.0
 ```
++ Private IP address
+  This address work within local network. These addresses are non-routable on the internet
+  ```
+  10.0.0.0 - 10.255.255.255
+  172.16.0.0 - 172.31.255.255
+  192.168.0.0 - 192.168.255.255
+  ```
 
 IP address consists of two parts
 + ```Network address``` : It's a number that's assigned to a newwork

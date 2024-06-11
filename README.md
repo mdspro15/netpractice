@@ -13,6 +13,10 @@ The number range in each octet is from 0 - 255 <br>
   172.16.0.0 - 172.31.255.255
   192.168.0.0 - 192.168.255.255
   ```
++ Loopback address
+  ```
+  172.0.0.0 - 172.255.255.255
+  ```
 
 IP address consists of two parts
 + ```Network address``` : It's a number that's assigned to a newwork

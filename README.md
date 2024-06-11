@@ -6,7 +6,7 @@ The number range in each octet is from 0 - 255 <br>
 ```
 192.168.1.0
 ```
-+ Private IP address
++ Private IP address :
   This address work within local network. These addresses are non-routable on the internet
   ```
   10.0.0.0 - 10.255.255.255

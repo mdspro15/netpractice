@@ -50,3 +50,11 @@ Host  256  128  64  32  16  8   4   2   1
 CIDR  /24  /25 /26 /27 /28 /29 /30 /31 /32
 ```
 https://youtu.be/ecCuyq-Wprc?si=KCOCGAcG3onrmtnm
+
+# Switch
+A switch connects multiple devices together in a single network. Unlike router, the switch does not have any interfaces since it only distributes packets to its local network and cannot talk directly to a network outside of its own.
+
+# Router
+The router connects multiple networks together and has an interface for each network it connects to. Since the router separates different networks, the range of possible IP addresses on one of its interfaces must not overlap with the range of its other interface.
+
+# Routing table

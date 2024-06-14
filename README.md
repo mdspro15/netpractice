@@ -58,3 +58,5 @@ A switch connects multiple devices together in a single network. Unlike router, 
 The router connects multiple networks together and has an interface for each network it connects to. Since the router separates different networks, the range of possible IP addresses on one of its interfaces must not overlap with the range of its other interface.
 
 # Routing table
+![routing_table1](https://github.com/mdspro15/netpractice/assets/142498552/cc395f85-56da-4521-9fb6-9eb5c799d89f)
+

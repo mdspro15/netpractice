@@ -44,7 +44,7 @@ It's a short way to write a subnet mask <br>
 /8 -> 255.0.0.0
 ```
 # Subnetting
-Subnetting is done by changing the default subnet maks by borrowing some of bits from host portion so that we can create more networks. More bits network portion borrows from host portion, the amount of networks can be created doubles with each bit. But also the amount of hosts per network gets cut in half with each bit.
+Subnetting is done by changing the default subnet maks by borrowing some of bits from host portion so that we can create more networks. More bits network portion borrows from host portion, the amount of networks can be created doubles with each bit. But also the amount of hosts per network gets cut in half with each bit. <br>
 To understand more, I watch this his video explains subnetting. For example, If we used /26 as mask we will be able to get 4 networks and usable IP address for host is 62 (This subnetting table shows that host is 64 but it includes network ID and broadcast ID).
 ```
 Subnet 1    2   4   8   16  32  64 128 256

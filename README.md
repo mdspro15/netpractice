@@ -14,7 +14,7 @@ The number range in each octet is from 0 - 255 <br>
   192.168.0.0 - 192.168.255.255
   ```
 + **Loopback address** :
-  Packets sent to this address never reach the network but looped through the network interface card only.
+  Packets sent to this address never reach the network but looped through the network interface card only. We cannot use this IP address as available IP addresses.
   ```
   127.0.0.0 - 127.255.255.255
   ```

@@ -55,7 +55,10 @@ https://youtu.be/ecCuyq-Wprc?si=KCOCGAcG3onrmtnm
 
 # To get usable IP
 With given IP address and mask, we can get network ID and broadcast ID. The range between network ID and broadcast ID is usable IP addresses. There are several ways to calculate but I personally prefer his way of calculating which made me understand quicker. 
-
+```
+IP address -> 104.198.241.125
+Mask       -> 255.255.255.128
+```
 https://youtu.be/POPoAjWFkGg?si=-UQAxe1LhgeXeGc7 
 
 # Switch

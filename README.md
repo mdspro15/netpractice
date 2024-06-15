@@ -59,7 +59,7 @@ With given IP address and mask, we can get network ID and broadcast ID. The rang
 IP address -> 104.198.241.125
 Mask       -> 255.255.255.128
 ```
-1. Convert this numbers to binary.<br> Since the bits of mask that are 1 represent the network address, so first 3 bytes should be same as given IP address (104.198.241.?)we actually don't have to convert all. All we focus on is just last octet.
+1. Convert this numbers to binary.<br> Since the bits of mask that are 1 represent the network address, so first 3 bytes should be same as given IP address ```104.198.241.?```we actually don't have to convert all. All we focus on is just last octet.
 ```
 IP address -> 01101000.11000110.11110001.01111101 
 Mask       -> 11111111.11111111.11111111.10000000

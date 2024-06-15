@@ -59,10 +59,15 @@ With given IP address and mask, we can get network ID and broadcast ID. The rang
 IP address -> 104.198.241.125
 Mask       -> 255.255.255.128
 ```
-Let's convert this numbers to binary.
+1. Convert this numbers to binary.
 ```
 IP address -> 01101000.11000110.11110001.01111101 
 Mask       -> 11111111.11111111.11111111.10000000
+```
+2. Bitwise AND to get network ID
+If both bits are 1, result is 1
+```
+Network ID -> 01101000.11000110.11110001.00000000
 ```
 https://youtu.be/POPoAjWFkGg?si=-UQAxe1LhgeXeGc7 
 

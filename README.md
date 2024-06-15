@@ -53,6 +53,9 @@ CIDR  /24  /25 /26 /27 /28 /29 /30 /31 /32
 ```
 https://youtu.be/ecCuyq-Wprc?si=KCOCGAcG3onrmtnm
 
+# To get usable IP
+https://youtu.be/POPoAjWFkGg?si=-UQAxe1LhgeXeGc7 
+
 # Switch
 A switch connects multiple devices together in a single network. Unlike router, the switch does not have any interfaces since it only distributes packets to its local network and cannot talk directly to a network outside of its own.
 

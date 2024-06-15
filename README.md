@@ -6,16 +6,17 @@ The number range in each octet is from 0 - 255 <br>
 ```
 192.168.1.0
 ```
-+ Private IP address :
++ **Private IP address** :
   This address work within local network. It's a range of non-internet facing IP addresses used in an internal network such as in residential, office and enterprise areas. They cannot be directly contacted over the internet.
   ```
   10.0.0.0 - 10.255.255.255
   172.16.0.0 - 172.31.255.255
   192.168.0.0 - 192.168.255.255
   ```
-+ Loopback address
++ **Loopback address** :
+  Packets sent to this address never reach the network but looped through the network interface card only.
   ```
-  172.0.0.0 - 172.255.255.255
+  127.0.0.0 - 127.255.255.255
   ```
 
 IP address consists of two parts

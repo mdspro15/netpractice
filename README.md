@@ -54,6 +54,8 @@ CIDR  /24  /25 /26 /27 /28 /29 /30 /31 /32
 https://youtu.be/ecCuyq-Wprc?si=KCOCGAcG3onrmtnm
 
 # To get usable IP
+With given IP address and mask, we can get network ID and broadcast ID. The range between network ID and broadcast ID is usable IP addresses. There are several ways to calculate but I personally prefer his way of calculating which made me understand quicker. 
+
 https://youtu.be/POPoAjWFkGg?si=-UQAxe1LhgeXeGc7 
 
 # Switch

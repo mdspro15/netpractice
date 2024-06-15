@@ -60,7 +60,6 @@ IP address -> 104.198.241.125
 Mask       -> 255.255.255.192
 ```
 **1. Convert this numbers to binary**<br> We actually don't have to convert every octet since the bits of mask that are 1 represent the network address. The octet of mask we only focus on is that has both 1 and 0. <br>
-If mask is ```255.255.255.0``` for example IP address is ```104.198.241.125``` you don't have to do anything ! network ID is ```104.198.241.0``` and broadcast ID is ```104.198.241.255```
 In this case, first 3 bytes should be same as given IP address ```104.198.241.?```All we focus on is just last octet. I normally make a chart that list powers of two to convert :)
 ```
 IP address -> 01101000.11000110.11110001.01111101 
@@ -79,6 +78,14 @@ Powers of two      -> 128 64 32 16 8 4 2 1
 Last octet of Mask -> 1    1  0  0 0 0 0 0
 Network ID         -> 104.198.241.64
 Broadcast ID       -> 104.198.241.127
+```
+**4. What If octet of mask has only 0 ?**
+We don't have to do any above steps. Just remember rest of network ID is **0** and rest of broadcast ID is **255**.
+```
+IP address   -> 104.198.241.125      | 104.198.241.125
+Mask         -> 255.255.255.0        | 255.255.0.0
+Network ID   -> 104.198.241.0        | 104.198.0.0
+Broadcast ID -> 104.198.241.255      | 104.198.255.255
 ```
 
 https://youtu.be/POPoAjWFkGg?si=-UQAxe1LhgeXeGc7 

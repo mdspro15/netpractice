@@ -57,19 +57,28 @@ https://youtu.be/ecCuyq-Wprc?si=KCOCGAcG3onrmtnm
 With given IP address and mask, we can get network ID and broadcast ID. The range between network ID and broadcast ID is usable IP addresses. There are several ways to calculate but I personally prefer his way of calculating which made me understand quicker. 
 ```
 IP address -> 104.198.241.125
-Mask       -> 255.255.255.128
+Mask       -> 255.255.255.192
 ```
-1. Convert this numbers to binary.<br> Since the bits of mask that are 1 represent the network address, so first 3 bytes should be same as given IP address ```104.198.241.?```we actually don't have to convert all. All we focus on is just last octet.
+1. Convert this numbers to binary.<br> Since the bits of mask that are 1 represent the network address, so first 3 bytes should be same as given IP address ```104.198.241.?```we actually don't have to convert all. All we focus on is just last octet. I normally make a chart that list powers of two to convert :)
 ```
 IP address -> 01101000.11000110.11110001.01111101 
-Mask       -> 11111111.11111111.11111111.10000000
+Mask       -> 11111111.11111111.11111111.11000000
 ```
 2. Bitwise AND to get network ID
 (If both bits are 1, result is 1)
 ```
-Network ID -> 01101000.11000110.11110001.00000000
-                104   .   198  .   241  .   0
+Network ID -> 01101000.11000110.11110001.01000000
+                104   .   198  .   241  .   64
 ```
+3. Get braodcast ID using network ID and mask <br>
+Focus only last octet of mask, find last bits of 1 and comapre chart of powers of two. The position of last bits of 1 is same as position of 64. Then add this number to last octet of network ID and subtract 1 which is **127** (64 + 64 - 1)
+```
+Powers of two      -> 128 64 32 16 8 4 2 1
+Last octet of Mask -> 1    1  0  0 0 0 0 0
+Network ID         -> 104.198.241.64
+Broadcast ID       -> 104.198.241.
+```
+
 https://youtu.be/POPoAjWFkGg?si=-UQAxe1LhgeXeGc7 
 
 # Switch

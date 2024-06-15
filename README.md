@@ -78,8 +78,9 @@ Powers of two      -> 128 64 32 16 8 4 2 1
 Last octet of Mask -> 1    1  0  0 0 0 0 0
 Network ID         -> 104.198.241.64
 Broadcast ID       -> 104.198.241.127
+Usable ID          -> 104.198.241.65 - 104.198.241.126
 ```
-**4. What If octet of mask has only 0 ?**
+**4. What If octet of mask has only 0 ?** <br>
 We don't have to do any above steps. Just remember rest of network ID is **0** and rest of broadcast ID is **255**.
 ```
 IP address   -> 104.198.241.125      | 104.198.241.125

@@ -44,14 +44,19 @@ It's a short way to write a subnet mask <br>
 /8 -> 255.0.0.0
 ```
 # Subnetting
+IP addresses have a network and a host part, so networks can be logically broken down into smaller networks, which is known as subnetting.
 Subnetting is done by changing the default subnet maks by borrowing some of bits from host portion so that we can create more networks. More bits network portion borrows from host portion, the amount of networks can be created doubles with each bit. But also the amount of hosts per network gets cut in half with each bit. <br>
-To understand more, I watch this his video explains subnetting. For example, If we used /26 as mask we will be able to get 4 networks and usable IP address for host is 62 (This subnetting table shows that host is 64 but it includes network ID and broadcast ID).
+For instace, we have subnet mask ```255.255.255.0``` it will give us 1 network with 256 hosts. 
+technically we have to subtract 2 hosts because the values that are all 1s and 0s are reserved for the broadcast and network address respectively. So we actually have 254 usable hosts. Let's borrow 1 bit from host portion, then we have new subnet mask ```255.255.255.128```. By borrowing 1 bit from host portion this will divide the network in half. This will give us 2 networks with 126 hosts in each subnet.
+
+To understand more, I watch these videos explains subnetting and the table in below (from sunny) is very useful if you want to break big networks into small networks. For example, If we used /26 as mask we will be able to get 4 networks and usable IP address for host is 62 (This subnetting table shows that host is 64 but it includes network ID and broadcast ID).
 ```
 Subnet 1    2   4   8   16  32  64 128 256
 Host  256  128  64  32  16  8   4   2   1
 CIDR  /24  /25 /26 /27 /28 /29 /30 /31 /32
 ```
 https://youtu.be/ecCuyq-Wprc?si=KCOCGAcG3onrmtnm
+https://youtu.be/s_Ntt6eTn94 
 
 # To get usable IP
 With given IP address and mask, we can get network ID and broadcast ID. The range between network ID and broadcast ID is usable IP addresses. There are several ways to calculate but I personally prefer his way of calculating which made me understand quicker. 

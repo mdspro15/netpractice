@@ -108,3 +108,4 @@ The router connects multiple networks together and has an interface for each net
 The routing table is a data table stored in a router or a network host that lists the router to paticular network destination. In NetPractice, the routing table consists of 2 elements
 + Destination: The destination specifies a network address on which a host is the end target of the packets. The router of defalt or 0.0.0.0/0 is the route that takes effect when no other route is avaiable for an IP destination address. The default route will use the next-hop address to send packets on their way without giving a specific destination. The default route will match any network.
 + Next hop: It refers to the next closest router a packet can go through. It is IP address of the next router.
+   

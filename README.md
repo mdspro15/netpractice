@@ -77,7 +77,8 @@ Network ID -> 01101000.11000110.11110001.01000000
                 104   .   198  .   241  .   64
 ```
 **3. Get broadcast ID using network ID and mask** <br>
-Focus only last octet of mask, find last bits of 1 and comapre chart of powers of two. The position of last bits of 1 is same as position of 64. Then add this number to last octet of network ID and subtract 1 which is **127** (64 + 64 - 1)
+Focus only last octet of mask, find last bits of 1 and comapre chart of powers of two. The position of last bits of 1 is same as position of 64. Then add this number to last octet of network ID and subtract 1 which is **127** (64 + 64 - 1)　<br>
+**Braodcast ID** : It's a special value used in networking to send information and services to all devices of a network without knowing their individial IP addresses.
 ```
 Powers of two      -> 128 64 32 16 8 4 2 1
 Last octet of Mask -> 1    1  0  0 0 0 0 0
